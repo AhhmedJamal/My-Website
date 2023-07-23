@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import "./index.css";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

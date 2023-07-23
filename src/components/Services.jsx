@@ -11,9 +11,9 @@ function Services() {
   const web = <FontAwesomeIcon icon={faDesktop} />;
   const mobile = <FontAwesomeIcon icon={faMobileScreenButton} />;
   return (
-    <>
+    <div id="services" className="services mt-[200px]">
       <Titles text="services" />
-      <div className="mt-[100px]">
+      <div className="mt-[70px]">
         <ServicesItem
           icon={design}
           title="web design"
@@ -37,7 +37,7 @@ function Services() {
            experience across various vehicles."
         />
       </div>
-    </>
+    </div>
   );
 }
 

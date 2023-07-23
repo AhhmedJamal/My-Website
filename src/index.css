@@ -7,13 +7,19 @@
   --PrimaryColor: #d5eb34;
 }
 
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: whitesmoke;
   font-family: "Rubik Mono One", sans-serif;
   color: white;
   background-color: #232323;
+  
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 85%;
   margin: 30px auto;
@@ -32,6 +38,7 @@ body {
   border-bottom: 3px solid transparent;
   text-align: center;
   transition: all 0.3s;
+  z-index: 10;
 }
 
 .list a::after {
@@ -42,7 +49,7 @@ body {
   background: gray;
   width: 0%;
   height: 3px;
-  z-index: -1;
+  z-index: -2;
   transition: all 0.3s;
 }
 
