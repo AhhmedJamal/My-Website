@@ -1,4 +1,5 @@
 import Img from "../assets/my.jpg";
+import Boxes from "./Boxes";
 
 function Info() {
   const name = "I'M";
@@ -8,40 +9,15 @@ function Info() {
         <h1>Nice To Meet You!</h1>
         <h2>
           {name}
-          <span className="underline ml-3 decoration-double text-[22px] text-primaryColor">
+          <span className="underline ml-3 decoration-double text-[22px] text-primaryColor ">
             AHMED JAMAl
           </span>
         </h2>
         <div className=" mt-[70px] text-2xl bg-grey text-white py-[10px] px-[25px]">
           {name} front end dev
         </div>
-        <div className="mt-[120px] ">
-          <div className=" boxes ">
-            <div className="box">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="box">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="box">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="box">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
+        <div className="mt-[160px] ">
+          <Boxes />
         </div>
       </div>
       <div
