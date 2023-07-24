@@ -8,7 +8,7 @@ function Skills() {
         className="skills flex justify-around items-start flex-col  mt-[70px] bg-[black]
        p-[30px] sm:flex-row sm:items-center"
       >
-        <div className="w-[40%] ">
+        <div className="">
           <div className="style-lang">
             {`style languages :{`}
             <br />{" "}
@@ -55,10 +55,10 @@ function Skills() {
             {"}"}
           </div>
         </div>
-        <div className="w-[40%] ">
-          <div className="style-lang">
+        <div className="">
+          <div className="style-lang ">
             {`anther skill :{`}
-            <br />{" "}
+            <br />
             <span className="text-primaryColor">
               {`"npm",`}
               <br />

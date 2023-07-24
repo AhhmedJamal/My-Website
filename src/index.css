@@ -15,7 +15,6 @@ body {
   font-family: "Rubik Mono One", sans-serif;
   color: white;
   background-color: #232323;
-  
 }
 html {
   scroll-behavior: smooth;
@@ -46,7 +45,7 @@ html {
   left: -1px;
   bottom: -5px;
   content: "";
-  background: gray;
+  background: grey;
   width: 0%;
   height: 3px;
   z-index: -2;
@@ -266,3 +265,22 @@ html {
   }
 }
 /* E Animation */
+/* S Footer  */
+.social > a {
+  position: relative;
+  z-index: 1;
+}
+.social > a::before {
+  width: 0%;
+
+  transition: all 0.3s;
+  content: "";
+  position: absolute;
+}
+.social > a:hover::before {
+  width: 100%;
+  height: 100%;
+  background: var(--PrimaryColor);
+  z-index: -1;
+}
+/* E  Footer*/
