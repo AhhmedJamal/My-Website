@@ -75,6 +75,7 @@ html {
 .list a:focus::before {
   width: 103%;
 }
+
 /* E  Nav Bar */
 .boxes {
   --size: 50px;
@@ -265,6 +266,17 @@ html {
   }
 }
 /* E Animation */
+
+/* S Project */
+.github a {
+  color: white;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.github a:hover {
+  color: #e7fd3d;
+}
+/* E Project */
 /* S Footer  */
 .social > a {
   position: relative;
@@ -280,7 +292,7 @@ html {
 .social > a:hover::before {
   width: 100%;
   height: 100%;
-  background: var(--PrimaryColor);
+  background: #4a4a4a;
   z-index: -1;
 }
 /* E  Footer*/

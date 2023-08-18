@@ -8,8 +8,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="flex fixed z-10  sm:bg-[transparent]  justify-between top-3 items-center border-solid border-b pb-3 mb-6 w-[85%]">
-          <Logo/>
+      <div className="flex fixed z-10 bg-bgNav    justify-between top-0 items-center border-solid border-b p-3 mb-6 w-[85%]">
+        <Logo />
         <div className="link hidden md:block ">
           <MenuLink dir="flex-row" hight="0px" />
         </div>

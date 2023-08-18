@@ -2,25 +2,23 @@ import Logo from "./Logo";
 
 function Footer() {
   return (
-    <div className="bg-grey  h-[300px] flex flex-col  justify-evenly ">
-      <div className="logo  w-fit px-7 py-2">{<Logo hidden="hidden" />}</div>
-      <div className=" flex justify-between px-8">
-        <div className="social flex flex-col ">
-          <h1 className="text-lg">follow us:</h1>
-          <a href="">{`=> facebook`}</a>
-          <a href="">{`=> instagram`}</a>
-          <a href="">{`=> linkedin`}</a>
-          <a href="">{`=> github`}</a>
+    <div className="bg-grey h-[220px] py-5 flex justify-between md:items-center md:justify-between  md:flex-row flex-col  md:h[170px]">
+      <div className="logo flex justify-between flex-col  w-fit px-7 h-[100px] order-2 ">
+        {<Logo hidden="hidden" />}
+        <address>
+          email:
+          <a href="mailto:ahhmed.jamal@gmail.com">@ahhmed.jamal@gmail.com</a>
+          <br />
+        </address>
+      </div>
+      <div className=" flex justify-between  px-8 order-4">
+        <div className="social flex flex-col text-primaryColor">
+          <h1 className="text-lg text-white">follow us:</h1>
+          <a href="https://www.instagram.com/jeemy.y/">{`> instagram `}</a>
+          <a href="https://www.linkedin.com/in/ahmed-jamal-4408a9229">{`> linkedin `}</a>
+          <a href="">{`> github`}</a>
         </div>
-        <div className="address self-end">
-          <address>
-            email:{" "}
-            <a href="mailto:ahhmed.jamal@gmail.com">@ahhmed.jamal@gmail.com</a>
-            <br />
-            phone: <span>01277478288</span>
-            <br />
-          </address>
-        </div>
+        <div className="address"></div>
       </div>
     </div>
   );
