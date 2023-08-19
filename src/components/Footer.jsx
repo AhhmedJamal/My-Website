@@ -27,7 +27,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >{`> linkedin `}</a>
-          <a href="" target="_blank" rel="noreferrer">{`> github`}</a>
+          <a href="https://github.com/AhhmedJamal" target="_blank" rel="noreferrer">{`> github`}</a>
         </div>
       </div>
     </div>
