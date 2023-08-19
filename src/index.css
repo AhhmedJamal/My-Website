@@ -268,13 +268,23 @@ html {
 /* E Animation */
 
 /* S Project */
-.github a {
-  color: white;
-  transition: color 0.2s;
-  cursor: pointer;
+
+.github div {
+  @apply flex justify-between my-2 sm:flex-row flex-col;
 }
+.github span {
+  @apply flex-col sm:flex-row w-fit;
+}
+.github a {
+  transition: color 0.2s;
+  @apply bg-grey p-1 rounded-md text-[12px] w-fit pl-4 cursor-pointer text-white;
+}
+.github .links {
+  @apply flex flex-row justify-start gap-4;
+}
+
 .github a:hover {
-  color: #e7fd3d;
+  @apply text-primaryColor;
 }
 /* E Project */
 /* S Footer  */

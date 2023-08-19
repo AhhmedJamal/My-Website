@@ -3,7 +3,6 @@ function MenuLink({ dir, hight }) {
   return (
     <div className="list">
       <ul className={`list flex ${hight} justify-between  w-[500px] ${dir}`}>
-        
         <li>
           <a href="#services">services</a>
         </li>
@@ -12,9 +11,6 @@ function MenuLink({ dir, hight }) {
         </li>
         <li>
           <a href="#projects">projects</a>
-        </li>
-        <li>
-          <a href="#contact">contact</a>
         </li>
       </ul>
     </div>

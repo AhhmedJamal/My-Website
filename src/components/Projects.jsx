@@ -4,30 +4,34 @@ function Projects() {
   return (
     <div id="projects" className="Projects my-[70px] ">
       <Titles text="projects" />
-      <div className="github mt-[70px] bg-[black] p-10">
-        <div className="flex justify-between mb-2">
-          <span> 1 - Todo [react js]</span>
-          <a className="bg-grey p-1 rounded-md text-[12px]" href="">
-            {" github >"}
-          </a>
+      <div className="github mt-[70px] bg-[black] p-10 flex flex-col items-center sm:items-stretch">
+        <div>
+          <span> 1- Todo </span>
+          <div className="links">
+            <a href="">{" demo >"}</a>
+            <a href="">{" github >"}</a>
+          </div>
         </div>
-        <div className="flex justify-between mb-2">
-          <span> 2 - tic tac [react js]</span>
-          <a className="bg-grey p-1 rounded-md text-[12px] " href="">
-            {" github >"}
-          </a>
+        <div>
+          <span> 2- tic tac </span>
+          <div className="links">
+            <a href="">{" demo >"}</a>
+            <a href="">{" github >"}</a>
+          </div>
         </div>
-        <div className="flex justify-between mb-2">
-          <span> 3 - calender [react js]</span>
-          <a className="bg-grey p-1 rounded-md text-[12px]" href="">
-            {" github >"}
-          </a>
+        <div>
+          <span> 3- calender </span>
+          <div className="links">
+            <a href="">{" demo >"}</a>
+            <a href="">{" github >"}</a>
+          </div>
         </div>
-        <div className="flex justify-between mb-2">
-          <span> 4 - clock [react js]</span>
-          <a className="bg-grey p-1 rounded-md text-[12px]" href="">
-            {" github >"}
-          </a>
+        <div>
+          <span> 4- clock </span>
+          <div className="links">
+            <a href="">{" demo >"}</a>
+            <a href="">{" github >"}</a>
+          </div>
         </div>
       </div>
     </div>
