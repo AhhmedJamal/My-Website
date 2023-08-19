@@ -8,17 +8,37 @@ function Projects() {
         <div>
           <span> 1- Todo </span>
           <div className="links">
-            <a href="https://to-do-beige-ten.vercel.app/">{" demo >"}</a>
-            <a href="https://github.com/AhhmedJamal/ToDo">{" github >"}</a>
+            <a
+              href="https://to-do-beige-ten.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" demo >"}
+            </a>
+            <a
+              href="https://github.com/AhhmedJamal/ToDo"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" github >"}
+            </a>
           </div>
         </div>
         <div>
           <span> 2- tic-tac </span>
           <div className="links">
-            <a href="https://tic-tac-toe-game-xi-three.vercel.app/">
+            <a
+              href="https://tic-tac-toe-game-xi-three.vercel.app/ "
+              target="_blank"
+              rel="noreferrer"
+            >
               {" demo >"}
             </a>
-            <a href="https://github.com/AhhmedJamal/tic-tac-toe-game">
+            <a
+              href="https://github.com/AhhmedJamal/tic-tac-toe-game"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" github >"}
             </a>
           </div>
@@ -26,8 +46,18 @@ function Projects() {
         <div>
           <span> 3- calender </span>
           <div className="links">
-            <a href="https://calculator-two-eosin.vercel.app/">{" demo >"}</a>
-            <a href="https://github.com/AhhmedJamal/Calculator">
+            <a
+              href="https://calculator-two-eosin.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" demo >"}
+            </a>
+            <a
+              href="https://github.com/AhhmedJamal/Calculator"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" github >"}
             </a>
           </div>
@@ -35,8 +65,20 @@ function Projects() {
         <div>
           <span> 4- clock </span>
           <div className="links">
-            <a href="https://calculator-mgwo.vercel.app/">{" demo >"}</a>
-            <a href="https://github.com/AhhmedJamal/Clock">{" github >"}</a>
+            <a
+              href="https://calculator-mgwo.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" demo >"}
+            </a>
+            <a
+              href="https://github.com/AhhmedJamal/Clock"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" github >"}
+            </a>
           </div>
         </div>
       </div>
