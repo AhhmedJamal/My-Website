@@ -48,7 +48,8 @@ function Skills() {
             {` framework :{`}
             <br />{" "}
             <span className="text-primaryColor">
-              {`"react",`} <br />
+              {`"react js",`} <br />
+              {`"next js",`} <br />
               {`"jquery"`}
             </span>
             <br />
